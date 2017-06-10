@@ -1,0 +1,22 @@
+=begin pod
+=NAME Time::Duration::Parser
+=begin SYNOPSIS
+
+use Time::Duration::Parser;
+
+my $time-string = "5 days 4 hours 52 minutes 3 seconds";
+my $x = Time::Duration::Parser.parse($time-string);
+say "$time-string -> {$x.ast} seconds";
+
+=end SYNOPSIS
+
+=begin DESCRIPTIOPN
+
+See the synopsis.  :-)
+
+=end DESCRIPTIOPN
+
+=AUTHOR Jonathan Scott Duff <duff@pobox.com>
+
+=end pod
+
