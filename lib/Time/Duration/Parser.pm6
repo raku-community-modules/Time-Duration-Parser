@@ -1,5 +1,5 @@
 
-grammar Time::Duration::Parser is export {
+grammar Time::Duration::Parser {
     token TOP { 
         | <hms>         { make $<hms>.ast }
         | <timespec>    { make $<timespec>.ast; }
@@ -26,3 +26,7 @@ grammar Time::Duration::Parser is export {
     token sep { ',' | 'and' | <.ws> }
 }
 
+sub duration-to-seconds($string) is export {
+    my $result = Time::Duration::Parser.parse($string);
+    $result ?? $result.ast !! Nil
+}

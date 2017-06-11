@@ -1,7 +1,7 @@
 { 
     "perl": "6.*",
     "name" : "Time::Duration::Parser", 
-    "version" : "0.0.1", 
+    "version" : "0.0.2", 
     "auth": "github:perlpilot",
     "license" : "Artistic-2.0",
     "description" : "Parse duration strings into seconds", 
