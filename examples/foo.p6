@@ -1,6 +1,6 @@
 #!/usr/bin/env perl6
 
-use lib BEGIN { callframe(0).annotations<file>.IO.parent.parent.child("lib").Str; };
+use lib $*PROGRAM.parent.parent.child("lib").Str;
 use Time::Duration::Parser;
 
 my @ts = (
