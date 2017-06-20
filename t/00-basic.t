@@ -60,3 +60,5 @@ for @tests -> ($str, $expected-sec) {
     my $actual-sec = duration-to-seconds($str);
     is $actual-sec, $expected-sec, "$str ~> $expected-sec seconds";
 }
+
+done-testing;
