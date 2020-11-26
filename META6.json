@@ -12,10 +12,10 @@
         "Time::Duration::Parser"    : "lib/Time/Duration/Parser.pm6"
     },
     "source-type" : "git",
-    "source-url" : "https://github.com/perlpilot/p6-Time-Duration-Parser.git",
+    "source-url" : "https://github.com/raku-community-modules/Time-Duration-Parser.git",
     "support": {
-        "source": "https://github.com/perlpilot/p6-Time-Duration-Parser.git",
-        "bugtracker" : "https://github.com/perlpilot/p6-Time-Duration-Parser/issues"
+        "source": "https://github.com/raku-community-modules/Time-Duration-Parser.git",
+        "bugtracker" : "https://github.com/raku-community-modules/Time-Duration-Parser/issues"
     },
     "authors"       : [
         "Jonathan Scott Duff <duff@pobox.com>"
