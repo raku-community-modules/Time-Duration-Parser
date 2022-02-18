@@ -67,8 +67,8 @@ and 365 days respectively.
 
 Jonathan Scott Duff
 
-Source can be located at: https://github.com/lizmat/Updown . Comments and
-Pull Requests are welcome.
+Source can be located at: https://github.com/raku-community-modules/Time-Duration-Parser .
+Comments and Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
